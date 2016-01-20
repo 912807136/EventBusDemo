@@ -26,9 +26,9 @@ EventBus是一款针对Android优化的发布/订阅事件总线。主要功能�
 		super.onDestroy();
 		EventBus.getDefault().unregister(this);
 	}
-```java
+```
 
 发送消息：
 ```java
 EventBus.getDefault().post("我很好");
-```java
+```
